@@ -1,0 +1,62 @@
+.search-box {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: -100px; /* To overlap slightly on the banner */
+    position: relative;
+    z-index: 10;
+  }
+  
+  .search-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .search-item {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px; /* flexible width but minimum 200px */
+    min-width: 150px;
+  }
+  
+  .search-item label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .search-item select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #f9f9f9;
+  }
+  
+  .search-button {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .search-button button {
+    padding: 12px 30px;
+    background-color: #4e4eff; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button button:hover {
+    background-color: #3b3bcc;
+  }
+  

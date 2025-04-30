@@ -1,0 +1,48 @@
+.latest{
+    text-align: center;
+}
+
+.car-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    gap: 40px;
+    background: white;
+    flex-wrap: wrap;
+  }
+  
+  .car-left img {
+    max-width: 100%;
+    width: 400px;
+  }
+  
+  .car-right {
+    max-width: 500px;
+  }
+  
+  .car-right h2 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .car-right p {
+    color: #666;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #5b60f3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #3a3fbf;
+  }

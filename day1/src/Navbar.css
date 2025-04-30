@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#navbar_container{
+    background-color: rgb(97, 135, 169);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+#navbar_links,#navbar_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+#navbar_links > p{
+    cursor: pointer;
+    background-color: rgb(60, 56, 60);
+    color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: ease-in-out;
+}
+#navbar_links > p:hover,#navbar_buttons>span:hover {
+    background-color:transparent;
+  border: 1px solid black;
+
+}
+#navbar_buttons>span{
+    background-color:rgb(174, 183, 190) ;
+   padding: 0.5rem;
+    color: black;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+

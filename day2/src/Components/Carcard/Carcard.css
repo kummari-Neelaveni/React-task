@@ -1,0 +1,55 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .car-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .car-card {
+    width: 280px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .car-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .info {
+    font-size: 13px;
+    color: #777;
+    margin: 5px 0;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  h4 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .desc {
+    font-size: 14px;
+    color: #555;
+  }
+  

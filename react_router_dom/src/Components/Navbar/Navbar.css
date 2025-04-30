@@ -1,0 +1,41 @@
+/* General reset for the navbar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between; /* Distribute items on both sides */
+    align-items: center; /* Vertically center content */
+    background-color: #2f83a9; /* Navbar background color */
+    padding: 2rem 4rem; /* Padding around navbar */
+  }
+  
+   .navbar >div >span {
+    color: rgb(11, 205, 34);
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navright {
+    display: flex;
+    gap: 20px; /* Space between links */
+  }
+  
+   #link {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Link color */
+    font-size: 18px; /* Font size for the links */
+    transition: color 0.3s ease; /* Smooth color transition */
+   }
+  
+  #link:hover {
+    color: #ffcc00; /* Change color on hover */
+  }
+  
+  #link:active {
+    color: #ff9900; /* Slightly darker color when clicked */
+  }
+  

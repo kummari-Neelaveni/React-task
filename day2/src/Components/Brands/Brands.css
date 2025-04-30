@@ -1,0 +1,24 @@
+.brands-section {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  .brand-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .brand-logos img {
+    width: 100px;
+    opacity: 0.7;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  .brand-logos img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  
