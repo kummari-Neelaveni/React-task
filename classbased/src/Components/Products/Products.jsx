@@ -1,16 +1,18 @@
-import React, { Component } from 'react';
-import p_data from '../Product/data';
-import Product from '../Product/Product';
+import React, { Component } from "react";
 
-
+import p_Data from "../../data";
+console.log(p_Data)
+import Product from "../Product/Product";
 export default class Products extends Component {
   render() {
     return (
-      <div>
-        {p_data.map((product) => {
+      <div className="product-wrapper">
+        {p_Data.map((a) => {
+          console.log(a)
           return (
             <>
-             <Product propname={product}/>
+              {/* <h1>{a.title}</h1> */}
+              <Product propname={a} />
             </>
           );
         })}
@@ -18,4 +20,6 @@ export default class Products extends Component {
     );
   }
 }
+
+
 

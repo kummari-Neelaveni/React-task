@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar/Navbar"
 import Said from "./Components/Home/Home"
 import About from "./Components/Home/About"
 import Contact from "./Components/Home/Contact";
-import Products from "./Components/Products/Products";
+import Products from './Components/Products/Products';
 import { Routes,Route } from "react-router-dom";
 class App extends React.Component {
   render() {
