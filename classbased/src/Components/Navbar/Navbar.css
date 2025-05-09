@@ -1,0 +1,16 @@
+.navbar{
+    display: flex;
+ justify-content: space-around;
+ align-items: center;
+ background-color: aquamarine;
+ padding: 1rem 2rem;
+}
+.navbar_links{
+    display: flex;
+    gap: 2rem;
+}
+.navbar_links>span{
+    background-color: burlywood;
+    border-radius: 1rem;
+    padding: 1rem;
+}

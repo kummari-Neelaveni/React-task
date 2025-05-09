@@ -4,15 +4,21 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
-.products{
-    border: 1px solid black;
-    border-radius: 2rem;
-    padding: 10px;
-   
-}
-.products_container{
-    padding: 2rem 3rem;
+.products-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 30px;
-}
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+.product-card {
+    background-color: #fffefe;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }

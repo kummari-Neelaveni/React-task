@@ -30,6 +30,7 @@ const Navbar=()=>{
             <Link id="link" to ="/products">
             <span>Products</span>
             </Link>
+            
         </div>
 
            
