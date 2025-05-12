@@ -1,0 +1,42 @@
+States in react:
+
+1.it is an object which store the component  data
+2.it is mutable (setstate)--state ni ---replace
+3.class comp: use:-this.state,useState() hook
+4.with the help of state, we make webssite behave dynamic
+5.we can change the data over the time
+note :in class component to access the state we need the constructor with the method 
+    super()
+    this()
+    1===>to update the --------state------- we use the ---------- this.setState()--- updates the obj
+note: while iam reftreshing the state it gets to initial state
+    // for every state  chnge, react app will rerender
+    //state is getting changed by a user action
+    // we can any arguments we arrow functions
+    
+
+
+    recap
+    ---------------------------------------------------------------------------------------------
+    1//class based component lo state use chylli natae ,compulsoru constructot ()
+    2//state use chylli antae this.state()
+    3//super() is must in constructor
+    
+
+    //state is used to store the data of a comp as obj
+    //to update the state , we need setstate() --this.setstate()
+
+    //while updating the state , we need the setstate()
+    //updaterfun always updates the state based on prev state
+
+    //for every state changes, react app gets rerender
+
+
+
+   note imp: inside func the variables is accesed in js //in react we should not used
+
+==================================================================================================================
+math.random()==>it generates a random num
+    math.random()*a.length ###16 len so 0-15.999
+math.floor()==> it removes the decimals
+

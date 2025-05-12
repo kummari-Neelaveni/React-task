@@ -3,7 +3,9 @@ import "./Products.css"
 import { Link } from 'react-router-dom';
 
 const Products = (prop) => {
-  // console.log(prop.productsData,"propdata") get allproducts
+  // console.log(prop,"prop")
+  // console.log(prop.productsData,"propdata") 
+  // get allproducts
   const d=prop.productsData;
   return (
     <div className="products-container">

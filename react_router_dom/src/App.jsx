@@ -6,8 +6,9 @@ import Services from "./Components/Services/Services";
 import Contact from "./Components/Contact/Contact";
 import Products from "./Components/Products/Products";
 import data from './Components/Products/pData'
-// console.log(data) get all products
-import ProductDetails from './Components/Products/ProductDetails';
+console.log(data,"data") 
+// get all products ad 
+import ProductDetails from './Components/ProductDetails/ProductDetails';
 import { Routes, Route } from "react-router-dom"; // ✅ FIXED
 
 const App = () => {
@@ -21,8 +22,7 @@ const App = () => {
         <Route path="/contact" element={<Contact/>} />
         <Route path="/products" element={<Products productsData={data.products}/>} />  
         <Route path="/products/:id" element={<ProductDetails />} />
-      </Routes>
-      
+      </Routes> 
     
     </div>
   );
