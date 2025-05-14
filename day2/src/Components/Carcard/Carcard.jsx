@@ -26,7 +26,7 @@ export function Carcard(){
                 </div>
         
                 <div className="car-card">
-                  <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/carvilla/assets/images/c3.png" alt="Lamborghini" />
+                  <img src="https://bringatrailer.com/wp-content/uploads/2023/01/MG_2120-12553.jpg" alt="Lamborghini" />
                   <p className="info">Model: 2017 &nbsp; 3100 Mi &nbsp; 240HP</p>
                   <p className="info">automatic</p>
                   <h3>Lamborghini V520</h3>
@@ -35,7 +35,7 @@ export function Carcard(){
                 </div>
         
                 <div className="car-card">
-                  <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/carvilla/assets/images/c4.png" alt="Audi" />
+                  <img src="https://www.motortrend.com/uploads/2023/06/2024-Audi-RS7-Sportback-performance-Ascari-blue-matt-front-view-059.jpg" alt="Audi" />
                   <p className="info">Model: 2017 &nbsp; 3100 Mi &nbsp; 240HP</p>
                   <p className="info">automatic</p>
                   <h3>Audi A3 Sedan</h3>
@@ -45,7 +45,7 @@ export function Carcard(){
 
 
                 <div className="car-card">
-                  <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/carvilla/assets/images/c1.png" alt="BMW" />
+                  <img src="https://assets.adac.de/image/upload/v1/Autodatenbank/Fahrzeugbilder/im05392-1-bmw-i8.jpg" alt="BMW" />
                   <p className="info">Model: 2017 &nbsp; 3100 Mi &nbsp; 240HP</p>
                   <p className="info">automatic</p>
                   <h3>BMW 6-Series Gran Coupe</h3>
@@ -55,7 +55,7 @@ export function Carcard(){
 
 
                 <div className="car-card">
-                  <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/carvilla/assets/images/c1.png" alt="BMW" />
+                  <img src="https://assets.adac.de/image/upload/v1/Autodatenbank/Fahrzeugbilder/im05392-1-bmw-i8.jpg" alt="BMW" />
                   <p className="info">Model: 2017 &nbsp; 3100 Mi &nbsp; 240HP</p>
                   <p className="info">automatic</p>
                   <h3>BMW 6-Series Gran Coupe</h3>
@@ -64,7 +64,7 @@ export function Carcard(){
                 </div>
 
                 <div className="car-card">
-                  <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/carvilla/assets/images/c1.png" alt="BMW" />
+                  <img src="https://assets.adac.de/image/upload/v1/Autodatenbank/Fahrzeugbilder/im05392-1-bmw-i8.jpg" alt="BMW" />
                   <p className="info">Model: 2017 &nbsp; 3100 Mi &nbsp; 240HP</p>
                   <p className="info">automatic</p>
                   <h3>BMW 6-Series Gran Coupe</h3>
@@ -73,7 +73,7 @@ export function Carcard(){
                 </div>
 
                 <div className="car-card">
-                  <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/carvilla/assets/images/c1.png" alt="BMW" />
+                  <img src="https://assets.adac.de/image/upload/v1/Autodatenbank/Fahrzeugbilder/im05392-1-bmw-i8.jpg" alt="BMW" />
                   <p className="info">Model: 2017 &nbsp; 3100 Mi &nbsp; 240HP</p>
                   <p className="info">automatic</p>
                   <h3>BMW 6-Series Gran Coupe</h3>

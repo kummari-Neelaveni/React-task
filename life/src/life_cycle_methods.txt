@@ -1,0 +1,12 @@
+===>react is all comp
+===>comp is having life cycle-----birth (componentDidMpount)
+                                //life(Component Did Update)
+                                //death.
+//componentDidMpount(Birth)
+1-------jsxfile--comp--export --import in app ----app import in main.jsx id root--in index.html----visible on browser
+2---------browser is visible the content and console.log("dfg")
+         when the page refresh the it renders the first before the console
+         
+
+
+

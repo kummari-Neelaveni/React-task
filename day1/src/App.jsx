@@ -2,7 +2,7 @@ import Navbar from "./Navbar"
 import "./App.css";
 import { Fullstack } from "./Fullstack"
 import { Today } from "./Today";
-import { Front} from "./Front";
+
 
 
 
@@ -18,7 +18,7 @@ function App(){
               <Fullstack></Fullstack>   
               <Today></Today>
 
-             <Front></Front>
+           
 
         
         </div>

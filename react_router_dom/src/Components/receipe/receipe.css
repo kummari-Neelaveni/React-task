@@ -1,0 +1,15 @@
+.parentreceipe{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2rem;
+}
+.recipiecard>img{
+    width: 20vw;
+    height: 30vh;
+}
+.recipiecard{
+    padding: 1.5rem;
+    border-radius: 2rem;
+    background-color: beige;
+
+}

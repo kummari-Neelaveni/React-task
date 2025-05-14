@@ -1,0 +1,24 @@
+.app2{
+    display: flex;
+     gap: 2rem;
+    background-color: rgb(225, 225, 246);
+    height: fit-content;
+   
+}
+.app2child1{
+    display: grid;
+     grid-template-columns: auto;
+     width: 20vw;
+     gap: 2rem;
+     padding: 2rem;
+     background-color: rgb(183, 255, 0);
+     height: fit-content;
+     margin: 2rem;
+}
+.app2child1>button{
+    background-color:rgb(218, 70, 136);
+}
+.app2child2{
+    background-color: rgb(218, 191, 243);
+    margin: 2rem;
+}

@@ -6,10 +6,13 @@ import Services from "./Components/Services/Services";
 import Contact from "./Components/Contact/Contact";
 import Products from "./Components/Products/Products";
 import data from './Components/Products/pData'
-console.log(data,"data") 
+console.log(data,"pdata") 
+console.log(data.products, "pdata")
 // get all products ad 
 import ProductDetails from './Components/ProductDetails/ProductDetails';
+import Recepies from './Components/Recepies/Receipes'
 import { Routes, Route } from "react-router-dom"; // ✅ FIXED
+import Receipiedetails from "./Components/receipie details/Receipiedetails";
 
 const App = () => {
   return (
@@ -20,8 +23,16 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact/>} />
-        <Route path="/products" element={<Products productsData={data.products}/>} />  
+
+        <Route path="/products" element={<Products productsData={data.products}/>} /> 
+        {/* in products compuct comp props is passed to the Products.jsx  // ---passing app to the component products.jsx*/} 
         <Route path="/products/:id" element={<ProductDetails />} />
+
+
+        <Route path="/receipes" element ={<Recepies/>}/> 
+        {/* passing data from component to compont  */}
+        <Route path="/receipes/:id" element={<Receipiedetails />} />
+
       </Routes> 
     
     </div>
