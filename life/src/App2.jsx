@@ -55,21 +55,28 @@ fetch(url).then(res=>res.json()).then(res=>{
   console.log(res,"64");
   const finalRes= res.products || res.recipes || res;
   console.log(finalRes,"finalRes")
-  this.setState({data:finalRes,loading:false})
+   localStorage.setItem("data", JSON.stringify(finalRes)); // <-- add this fetch data store in ls
+    this.setState({ data: finalRes, loading: false });
+  // this.setState({data:finalRes,loading:false})
+
+
 })
 
 }
-componentDidUpdate(){
-       const dataFromLs=JSON.parse(localStorage.getItem("data"))
-    this.setState({data:dataFromLs,loading:false})
-    console.log(this.state.data,"data from state")
+componentDidMount() {
+  const dataFromLs = JSON.parse(localStorage.getItem("data"));
+  if (dataFromLs) {
+    this.setState({ data: dataFromLs, loading: false });
+    console.log(dataFromLs, "Loaded from localStorage");
   }
+}
+
 
   render() {
     return (
       <div className='app2'>
        <div className='app2child1'>
-        <button onClick={()=>this.handleData("fakestore")}>fakestore</button>
+        <button onClick={()=>this.handleData("fakestore")}>fakestore Products</button>
         <button onClick={()=>this.handleData("dummyjsonproducts")}>dummyjson products</button>
         <button onClick={()=>this.handleData("dummyjsonreceipies")}>dummyjsonreceipies</button>
        </div>
@@ -78,7 +85,13 @@ componentDidUpdate(){
             {this.state.loading?"plse clic ant btn":this.state.data.map((x)=>{
               return(
                 <>
-                <h1>{x.title || x.name}</h1>
+                <div className='card'>
+                   <h3>{x.title || x.name}</h3>
+                <img src={x.thumbnail|| x.image}></img>
+                <p>{x.price}</p>
+
+                </div>
+               
                 </>
               )
             })}

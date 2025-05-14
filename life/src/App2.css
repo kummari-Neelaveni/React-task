@@ -1,24 +1,93 @@
-.app2{
-    display: flex;
-     gap: 2rem;
-    background-color: rgb(225, 225, 246);
-    height: fit-content;
-   
+/* Main Container */
+.app2 {
+  display: flex;
+  gap: 2rem;
+  background-color: rgb(225, 225, 246);
+  min-height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
 }
-.app2child1{
-    display: grid;
-     grid-template-columns: auto;
-     width: 20vw;
-     gap: 2rem;
-     padding: 2rem;
-     background-color: rgb(183, 255, 0);
-     height: fit-content;
-     margin: 2rem;
+
+/* Sidebar Button Panel */
+.app2child1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 20vw;
+  gap: 1rem;
+  padding: 1.5rem;
+  background-color: rgb(183, 255, 0);
+  border-radius: 12px;
+  height: fit-content;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
-.app2child1>button{
-    background-color:rgb(218, 70, 136);
+
+/* Buttons */
+.app2child1 > button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: rgb(218, 70, 136);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-.app2child2{
-    background-color: rgb(218, 191, 243);
-    margin: 2rem;
+
+.app2child1 > button:hover {
+  background-color: rgb(180, 50, 110);
 }
+
+/* Cards Grid Container */
+.app2child2 {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Individual Card */
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* Title Text */
+.card h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+  min-height: 48px;
+}
+
+/* Image Styling */
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+/* Price Text */
+.card p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+/* Loader Text */
+.loading {
+  font-size: 20px;
+  color: #888;
+  text-align: center;
+  grid-column: 1 / -1;
+}
+
