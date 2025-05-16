@@ -1,0 +1,24 @@
+.navabar{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgoldenrod;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(23, 1, 45);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.right{
+    font-size: larger;
+}
+.Navbar_links{
+    display: flex;
+    gap: 2rem;
+   
+}
+.Navbar_links>#link{
+    background-color: azure;
+    text-decoration: none;
+    padding: 0.7rem;
+    border-radius: 1rem;
+}

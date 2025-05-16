@@ -1,0 +1,22 @@
+useEffect=== 
+useEffect is a react hook that lets you run side effects in your functional com
+side effects include things like
+. fetching data from an api
+. updating the dom dom directly
+. setting up subscriptions
+.........it replaces the life cycle methods 
+syntax
+:import {useEffect} from 'react'
+        useEffect(()=>{
+            //code to run (side effect)
+        },[dependencies]);
+
+ note : in functional based components the mounting and update can be handled by useEffect 
+ when the api calls the alert and some piece of code can execute an dthen api calls
+      alert--------fetch /promises 2nd 
+
+note: mounting phase always runs once after the render of comp 
+
+
+note: render html /mounting/updtaes 
+ fragments =adding extra dom to real dom    <></>
